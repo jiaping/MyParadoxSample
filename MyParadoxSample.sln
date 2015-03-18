@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample1", "Sample1", "{4D176EC8-0CC7-4949-BEE9-D6BAD1AD8EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample1.Windows", "Sample1\Sample1.Windows\Sample1.Windows.csproj", "{80C767F2-0A45-4ABB-AF68-1BE342CD2663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample1.Game", "Sample1\Sample1.Game\Sample1.Game.csproj", "{B3CFE048-C0CD-4454-9431-6FDB51438BF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80C767F2-0A45-4ABB-AF68-1BE342CD2663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C767F2-0A45-4ABB-AF68-1BE342CD2663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C767F2-0A45-4ABB-AF68-1BE342CD2663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C767F2-0A45-4ABB-AF68-1BE342CD2663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3CFE048-C0CD-4454-9431-6FDB51438BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CFE048-C0CD-4454-9431-6FDB51438BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CFE048-C0CD-4454-9431-6FDB51438BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CFE048-C0CD-4454-9431-6FDB51438BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80C767F2-0A45-4ABB-AF68-1BE342CD2663} = {4D176EC8-0CC7-4949-BEE9-D6BAD1AD8EFA}
+		{B3CFE048-C0CD-4454-9431-6FDB51438BF2} = {4D176EC8-0CC7-4949-BEE9-D6BAD1AD8EFA}
+	EndGlobalSection
+EndGlobal
